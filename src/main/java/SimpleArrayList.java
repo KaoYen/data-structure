@@ -72,7 +72,7 @@ public class SimpleArrayList<E> {
     }
 
     private void grow() {
-        int newCapacity = array.length + array.length >> 1;
+        int newCapacity = array.length + (array.length >> 1); // 不加括號會先做加法，再做位元運算 >> 等於做除2
         array = Arrays.copyOf(array, newCapacity);
     }
 
