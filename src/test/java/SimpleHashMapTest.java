@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class TestSimpleHashMapTest {
+public class SimpleHashMapTest {
     private SimpleHashMap<String, Integer> map;
 
     @Before

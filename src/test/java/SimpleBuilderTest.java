@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestSimpleBuilder {
+public class SimpleBuilderTest {
 
     @Test
     public void testAppend() {

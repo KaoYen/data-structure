@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestSimpleArrayList {
+public class SimpleArrayListTest {
 
     @Test
     public void testAddAndGet() {
